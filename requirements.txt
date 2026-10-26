@@ -1,0 +1,10 @@
+# Minimum versions for pip. environment.yml pins the versions the code was tested with.
+numpy>=2.0
+pandas>=2.2
+xarray>=2025.1
+dask>=2025.1
+zarr>=3.0
+fsspec>=2025.1
+aiohttp>=3.10
+netCDF4>=1.7
+pytest>=8.0

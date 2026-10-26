@@ -1,0 +1,21 @@
+# Downloaded data, run logs and QC reports
+data/
+logs/
+reports/
+slurm-*.out
+
+# Python and test caches
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Personal use only: benchmark, QC, tests, CI, previous configuration/documentation
+/benchmark.py
+/qc.py
+/slurm/benchmark.sh
+/tests/
+/.github/
+/config/
+/README.full.md
+
+
